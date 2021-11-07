@@ -1,0 +1,40 @@
+
+.header{
+    background-color: red;
+    padding: 2rem 9%;
+}
+
+.header .logo{
+    font-family: var(--font-secundaria);
+    font-size: var(--fonte-extra-grande);
+    border: 2px solid var(--cor-branca);
+    border-radius: 50%;
+    width: 65px;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: underline;
+    transform:.2s linear;
+}
+
+.header a:hover .logo{
+    color: var(--cor-primeria);
+    border: 2px solid var(--cor-primeria);
+}
+
+.header nav ul {
+    display: flex;
+}
+
+.header nav ul li a{
+    text-transform: capitalize;
+    font-size: 2rem;
+    font-weight: 500;
+    padding: 10px 20px;
+    transition: .2s;
+    border-radius: 50px;
+    letter-spacing: 1px;
+    user-select: none;
+}
+
