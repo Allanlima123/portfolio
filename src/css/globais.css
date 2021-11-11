@@ -8,6 +8,10 @@ html{
   scroll-behavior: smooth;
 }
 
+section{
+  padding: 20px 9%;
+}
+
 body{
   background-color: var(--cor-fundo-cinza-escuro);
   font-family: var(--fonte-primaria);
@@ -56,4 +60,41 @@ body{
 .inner-shadow{
   box-shadow: inset 3px 3px 3px #222327, inset -3px -3px 3px #454545;
 }
+
+.section-title{
+  text-align: center;
+  flex: 0 0 100%;
+  max-width: 100%;
+  padding: 60px 0;
+}
+
+.section-title::after{
+  content: "";
+  display: block;
+  width: 200px;
+  height: 6px;
+  margin: 5px auto;
+  background-color: var(--cor-primeria);
+}
+
+.section-title h2{
+  font-size: var(--fonte-gigante);
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.botao{
+  font-size: var(--fonte-grande);
+  padding: 10px 20px;
+  border-radius: 20px;
+  transition: all .3s ease;
+  background-color: var(--cor-primeria);
+}
+
+.botao:hover{
+  background-color: var(--cor-secundaria);
+  color: var(--cor-branca);
+}
+
+
 
