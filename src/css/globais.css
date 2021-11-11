@@ -32,3 +32,28 @@ body{
   align-items: center;
 }
 
+.redes-sociais a{
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  font-size: 2.5rem;
+  text-align: center;
+  margin: 0 4px;
+  line-height: 40px;
+  cursor: pointer;
+  transition: all .3s ease;
+}
+
+.redes-sociais a:hover{
+  color: var(--cor-primeria);
+}
+
+.outer-shadow{
+  box-shadow: 3px 3px #222327, -3px -3px 3px #454545;
+}
+
+.inner-shadow{
+  box-shadow: inset 3px 3px 3px #222327, inset -3px -3px 3px #454545;
+}
+
