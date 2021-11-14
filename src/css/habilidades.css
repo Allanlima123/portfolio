@@ -15,6 +15,7 @@
 
 .habilidades .container-habilidades .informacoes:hover{
     transform: scale(1.05);
+    color: var(--cor-primeria);
 }
 
 .habilidades .container-habilidades .informacoes .logo i,
