@@ -8,10 +8,6 @@ html{
   scroll-behavior: smooth;
 }
 
-section{
-  padding: 20px 9%;
-}
-
 body{
   background-color: var(--cor-fundo-cinza-escuro);
   font-family: var(--fonte-primaria);
