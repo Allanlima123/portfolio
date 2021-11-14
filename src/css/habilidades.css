@@ -13,6 +13,10 @@
     border-radius: .5rem;
 }
 
+.habilidades .container-habilidades .informacoes:hover{
+    transform: scale(1.05);
+}
+
 .habilidades .container-habilidades .informacoes .logo i,
 .habilidades .container-habilidades .informacoes h3,
 .habilidades .container-habilidades .informacoes p{
